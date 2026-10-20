@@ -1,0 +1,9 @@
+{
+  "pixel_identical_to_release": true,
+  "pillow_version": "12.3.0",
+  "required_frames": 73,
+  "dimensions": [
+    1536,
+    2288
+  ]
+}
