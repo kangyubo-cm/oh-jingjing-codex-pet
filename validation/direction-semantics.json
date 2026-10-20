@@ -1,0 +1,121 @@
+{
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Chin raised and face lifted; original blue irises point toward upper lids.",
+      "evidence": "The nose and mouth rise relative to the fixed gemstone and bowl; no horizontal yaw is required.",
+      "verdict": "pass"
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Head remains raised with a slight screen-right yaw; gaze follows upper-right.",
+      "evidence": "Nose is slightly right of collar center and irises remain high; horizontal component is subtle.",
+      "verdict": "warning"
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Face yaws screen-right while chin remains elevated; eyes aimed upper-right.",
+      "evidence": "Rightward nose projection plus lifted lower face and upper-lid gaze show both axes.",
+      "verdict": "pass"
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "More right-facing head with a small upward pitch.",
+      "evidence": "Nose/face surface advance right while chin is above horizontal-right reference.",
+      "verdict": "pass"
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Head and both eyes face screen-right; bowl stays frontal.",
+      "evidence": "Nose tip and visible facial surface lie to right of head center; no vertical claim needed.",
+      "verdict": "pass"
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Right-facing head begins to lower toward the rice.",
+      "evidence": "Nose projects right and chin drops toward gemstone; eyes lower beneath upper lids.",
+      "verdict": "pass"
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Head yaws right and pitches down, looking toward bowl-right.",
+      "evidence": "Both rightward nose projection and lowered chin/irises are visible.",
+      "verdict": "pass"
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Mostly lowered face with a small remaining rightward yaw.",
+      "evidence": "Hat dome is exposed by downward pitch; nose remains a little right of collar center.",
+      "verdict": "warning"
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Head bows toward the rice, eyes lowered and face still visible.",
+      "evidence": "Chin approaches collar and hat dome dominates from above; both pupils aimed downward.",
+      "verdict": "pass"
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Mostly bowed head with a subtle screen-left shift of nose and gaze.",
+      "evidence": "Lowered chin and visible hat dome establish down; nose and eyes shift a little left.",
+      "verdict": "warning"
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Head yaws screen-left while remaining bowed.",
+      "evidence": "Nose lies left of collar center, eyes and chin directed down toward bowl-left.",
+      "verdict": "pass"
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "A stronger screen-left face with slight downward pitch.",
+      "evidence": "Nose projection left is clear; chin is lower than the horizontal-left reference.",
+      "verdict": "pass"
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Head turns toward screen-left and eyes follow.",
+      "evidence": "Clear nose and facial plane project left while ribbon remains on viewer-right.",
+      "verdict": "pass"
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Left-facing head starts to raise chin and gaze.",
+      "evidence": "Nose remains left, chin rises above horizontal-left reference and eyes move upward.",
+      "verdict": "pass"
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Raised head and eyes look diagonally upper-left.",
+      "evidence": "Leftward nose/yaw combines with elevated chin and high blue irises.",
+      "verdict": "pass"
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Mostly raised frontal face with a small remaining leftward yaw.",
+      "evidence": "Nose sits slightly left of collar center; eyes and chin remain high before the UP anchor.",
+      "verdict": "warning"
+    }
+  ],
+  "normal_size_review": true,
+  "boundary_review": {
+    "157.5->180": "Accepted: same bowl baseline and identity; face yaw progresses from slight right to center-down. Pixel difference is a local metric outlier without visible reversal or clipping.",
+    "337.5->000": "Accepted: same bowl baseline and identity; small left yaw returns to central-up. Hat shading/shape change accounts for local pixel-diff outlier; no registration snap."
+  }
+}
